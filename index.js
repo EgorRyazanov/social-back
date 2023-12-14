@@ -10,7 +10,7 @@ import * as UserController from "./controllers/user-controller.js";
 import * as PostController from "./controllers/posts-controller.js";
 
 mongoose
-    .connect("mongodb+srv://Username:Password@cluster0.ou8wck8.mongodb.net/?retryWrites=true&w=majority")
+    .connect("mongodb+srv://aricsybsn:erwSnY6xkxLWhPBi@cluster0.madgf9l.mongodb.net/posts?retryWrites=true&w=majority")
     .then(() => console.log("ok"))
     .catch((err) => console.log(err));
 
